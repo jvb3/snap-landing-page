@@ -25,7 +25,7 @@ function MobileNavLinks({
               setShowCompaniesMenu(false);
             }}
             className="m-nav__close-button"
-            src="images/icon-close-menu.svg"
+            src="http://jvb3.github.io/snap-landing-page/images/icon-close-menu.svg"
             alt="close menu button"
           />
         )}
@@ -37,13 +37,13 @@ function MobileNavLinks({
               <img
                 onClick={() => setShowFeaturesMenu(false)}
                 className="m-nav-link__icon"
-                src="images/icon-arrow-up.svg"
+                src="http://jvb3.github.io/snap-landing-page/images/icon-arrow-up.svg"
               />
             ) : (
               <img
                 onClick={() => setShowFeaturesMenu(true)}
                 className="m-nav-link__icon"
-                src="images/icon-arrow-down.svg"
+                src="http://jvb3.github.io/snap-landing-page/images/icon-arrow-down.svg"
               />
             )}
             {showFeaturesMenu && <FeaturesMenu />}
@@ -57,13 +57,13 @@ function MobileNavLinks({
               <img
                 onClick={() => setShowCompaniesMenu(false)}
                 className="m-nav-link__icon"
-                src="images/icon-arrow-up.svg"
+                src="http://jvb3.github.io/snap-landing-page/images/icon-arrow-up.svg"
               />
             ) : (
               <img
                 onClick={() => setShowCompaniesMenu(true)}
                 className="m-nav-link__icon"
-                src="images/icon-arrow-down.svg"
+                src="http://jvb3.github.io/snap-landing-page/images/icon-arrow-down.svg"
               />
             )}
             {showCompaniesMenu && <CompaniesMenu />}

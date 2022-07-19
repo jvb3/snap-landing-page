@@ -24,9 +24,15 @@ function DesktopNavLinks({
           <span className="dt-nav__features-title">Features</span>
 
           {showFeaturesMenu ? (
-            <img src="images/icon-arrow-up.svg" alt="up arrow" />
+            <img
+              src="http://jvb3.github.io/snap-landing-page/images/icon-arrow-up.svg"
+              alt="up arrow"
+            />
           ) : (
-            <img src="images/icon-arrow-down.svg" alt="down arrow" />
+            <img
+              src="http://jvb3.github.io/snap-landing-page/images/icon-arrow-down.svg"
+              alt="down arrow"
+            />
           )}
           {showFeaturesMenu && <FeaturesMenu />}
         </li>
@@ -39,9 +45,15 @@ function DesktopNavLinks({
         >
           <span className="dt-nav__company-title">Company</span>
           {showCompaniesMenu ? (
-            <img src="images/icon-arrow-up.svg" alt="up arrow" />
+            <img
+              src="http://jvb3.github.io/snap-landing-page/images/icon-arrow-up.svg"
+              alt="up arrow"
+            />
           ) : (
-            <img src="images/icon-arrow-down.svg" alt="down arrow" />
+            <img
+              src="http://jvb3.github.io/snap-landing-page/images/icon-arrow-down.svg"
+              alt="down arrow"
+            />
           )}
           {showCompaniesMenu && <CompaniesMenu />}
         </li>

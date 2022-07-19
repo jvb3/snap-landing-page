@@ -18,7 +18,7 @@ function App() {
         <nav className="nav-bar">
           <img
             className="nav-bar__logo"
-            src="images/logo.svg"
+            src="http://jvb3.github.io/snap-landing-page/images/logo.svg"
             alt="company logo"
           />
           <DesktopNavLinks
@@ -35,7 +35,7 @@ function App() {
               setCloseMenu(true);
             }}
             className="nav-bar__menu-icon"
-            src="images/icon-menu.svg"
+            src="http://jvb3.github.io/snap-landing-page/images/icon-menu.svg"
             alt="hamburger menu icon"
           />
           <div>
@@ -58,12 +58,12 @@ function App() {
         <article className="main-image">
           <img
             className="main-image__hero-image"
-            src="images/image-hero-mobile.png"
+            src="http://jvb3.github.io/snap-landing-page/images/image-hero-mobile.png"
             alt="a man using a laptop"
           />
           <img
             className="main-image__dt-hero-image"
-            src="images/image-hero-desktop.png"
+            src="http://jvb3.github.io/snap-landing-page/images/image-hero-desktop.png"
             alt="a man using a laptop"
           />
         </article>
@@ -79,10 +79,22 @@ function App() {
             </article>
           </main>
           <footer className="footer-content">
-            <img src="images/client-databiz.svg" alt="client logo-1" />
-            <img src="images/client-audiophile.svg" alt="client logo-2" />
-            <img src="images/client-meet.svg" alt="client logo-3" />
-            <img src="images/client-maker.svg" alt="client logo-4" />
+            <img
+              src="http://jvb3.github.io/snap-landing-page/images/client-databiz.svg"
+              alt="client logo-1"
+            />
+            <img
+              src="http://jvb3.github.io/snap-landing-page/images/client-audiophile.svg"
+              alt="client logo-2"
+            />
+            <img
+              src="http://jvb3.github.io/snap-landing-page/images/client-meet.svg"
+              alt="client logo-3"
+            />
+            <img
+              src="http://jvb3.github.io/snap-landing-page/images/client-maker.svg"
+              alt="client logo-4"
+            />
           </footer>
         </div>
       </div>

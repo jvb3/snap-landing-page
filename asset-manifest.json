@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/snap-landing-page/static/css/main.6366e284.css",
+    "main.js": "/snap-landing-page/static/js/main.ef97740c.js",
+    "index.html": "/snap-landing-page/index.html",
+    "main.6366e284.css.map": "/snap-landing-page/static/css/main.6366e284.css.map",
+    "main.ef97740c.js.map": "/snap-landing-page/static/js/main.ef97740c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6366e284.css",
+    "static/js/main.ef97740c.js"
+  ]
+}
